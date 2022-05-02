@@ -33,8 +33,8 @@ function add_todo() {
     `<li class="list-group-item py-0">
         <div class="d-flex my-0 py-0 align-items-center">
             <p class="lead m-0">${ input_text.value }</p>
-            <button class="btn ms-auto del-btn">
-                <h4 class="m-0"><i class="fa fa-trash"></i></h4>
+            <button class="btn ms-auto del-btn btn-lg">
+                <i class="fa fa-trash"></i>
             </button>
         </div>
     </li>`

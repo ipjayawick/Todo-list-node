@@ -1,12 +1,14 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik:wght@300&display=swap');
 
+
 body{
     position: relative;
     height: 100vh;
+    overflow: hidden;
 }
 *{
-    overflow: hidden;
+    
 }
 .background{
     background-image: url(../img/bg.jpg);
@@ -27,8 +29,16 @@ body{
 .app{
     height: 80%;
     .card{
-        width: 30%;
-        min-width: 400px;
+        width: 25%;
+        min-width: 350px;
         max-height: 800px;
+        overflow: auto;
+    }
+    i{
+        color: rgb(212, 81, 81);
+    }
+    .del-btn:hover i{
+        color:darken(rgb(212, 81, 81), 10);
+        transform:scale(1.1)
     }
 }
